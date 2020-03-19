@@ -146,11 +146,11 @@
 }
 
 .btn-primary {
-  background-color: #4F009E;
+  background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #0cb7c9 100%);
 }
 
 .btn-primary:hover {
-  background-color: #000;
+  background-image:linear-gradient(to left, #db811a 0%, #db1a47 51%, #ff00cc 100%);
 }
 
 .btn-primary:focus {
@@ -159,7 +159,7 @@
 }
 
 .btn-primary:active {
-  background-color: #6F00DE !important;
+  background-image:linear-gradient(to left, #db811a 0%, #fff 100%) !important;
 }
 
 .about-section {
@@ -186,7 +186,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #8409FF;
+    border-left: 0.5rem solid #db1a88;
   }
 }
 
@@ -200,7 +200,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #8409FF;
+    border-color: #ffc107;
     border-width: .25rem;
     width: 30%;
   }
@@ -263,7 +263,7 @@
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: #8409FF;
 }
 
 .contact-section .social a:active {
@@ -276,12 +276,12 @@ body {
 }
 
 a {
-  color: #8409FF;
+  color: #ffc107;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #ffc107;
+  color: #8409FF;
 }
 
 .bg-black {
