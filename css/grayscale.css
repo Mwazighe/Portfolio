@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #17a2b8;
-  border: 1px solid #17a2b8;
+  color: #8409FF;
+  border: 1px solid #8409FF;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -27,7 +27,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: #17a2b8;
+  color: #8409FF;
   outline: none;
   background-color: transparent;
 }
@@ -55,7 +55,7 @@
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: #000;
+    color: #fff;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #17a2b8;
+    color: #8409FF;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #6F00DE;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #17a2b8;
+    color: #8409FF;
     outline: none;
-    border-bottom: 0.25rem solid #17a2b8;
+    border-bottom: 0.25rem solid #8409FF;
   }
 }
 
@@ -146,7 +146,7 @@
 }
 
 .btn-primary {
-  background-color: #660066;
+  background-color: #4F009E;
 }
 
 .btn-primary:hover {
@@ -154,12 +154,12 @@
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #6F00DE;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #6F00DE !important;
 }
 
 .about-section {
@@ -186,7 +186,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #17a2b8;
+    border-left: 0.5rem solid #8409FF;
   }
 }
 
@@ -200,7 +200,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #17a2b8;
+    border-color: #8409FF;
     border-width: .25rem;
     width: 30%;
   }
@@ -232,7 +232,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #17a2b8;
+  border-bottom: 0.25rem solid #8409FF;
 }
 
 .contact-section .card h4 {
@@ -243,7 +243,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #17a2b8;
+  border-color: #8409FF;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -276,12 +276,12 @@ body {
 }
 
 a {
-  color: #17a2b8;
+  color: #8409FF;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #ffc107;
 }
 
 .bg-black {
@@ -289,11 +289,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #17a2b8 !important;
+  background-color: #8409FF !important;
 }
 
 .text-primary {
-  color: #17a2b8 !important;
+  color: #8409FF !important;
 }
 
 footer {
